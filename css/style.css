@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+
+
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;   
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 20px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: lightskyblue;
+    box-shadow: 0 0 10px white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: auto;
+    right: auto;
+    background: url(../image/fogs.jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+     display: flex;
+     flex-direction: column;
+}
+.headings{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: left;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+
+/* Activities Section */
+#activities{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.activities body{
+    background: url(../image/mjbg.jpg);
+    background-repeat: no-repeat;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 40px;
+}
+
+h2 {
+	margin: 10px 0 0 0;
+	font-size: 24px;
+}
+
+#main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h3 {
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+/*shop*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bg-image {
+    /* The image used */
+    background-image: url(../image/shop.jpg);
+    margin: 50px;
+    padding: 0;
+    height: 100%;
+    width: 80%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   .bg-text{
+    display: flex;
+    justify-content: center;
+  }
+
+/*resume*/
+#resume{
+    display: flex;  
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: black;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly   ;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 370px;
+    height: 300px;
+    margin: 20px;
+}
+.container{
+    position: relative;
+}
+.centered-1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+  }
+
+.centered{
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+      }
+

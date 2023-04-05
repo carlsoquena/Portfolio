@@ -1,0 +1,27 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.img-fashion {
+    width: 500px;
+    height: 500px;
+}
+.img-colorbag {
+    width: 150px;
+    height: 150px;
+}
+.img-greenbag {
+    width: 150px;
+    height: 150px;
+}
+.img-kids {
+    width: 150px;
+    height: 150px;
+}
+.img-whitebag {
+    width: 150px;
+    height: 150px;
+}
+.highlight-word-color {
+    color: red;
+}
